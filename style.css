@@ -131,12 +131,19 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 0;
 }
 .sticky-nav-option button{
     margin-right: 1rem;
+    margin-left: 2rem;
+}
+.account{
+    padding-top: 0.7rem;
+    margin-left: 3rem;
 }
 .nav-item{
-    margin-left: 1rem;
+    padding-top: 8px;
+    margin-left: 1.5rem;
 }
 @media (max-width: 1000px){
     .hide{
